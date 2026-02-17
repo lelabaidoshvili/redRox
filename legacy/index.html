@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>redRox | Premium Web Solutions & Digital Design</title>
+    <meta name="description"
+        content="redRox Webstudio specializes in creating high-performance, visually stunning websites and digital experiences. Elevate your brand with our premium design and development services.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Noto+Sans+Georgian:wght@300;400;600;800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header id="main-header">
+        <nav class="container">
+            <div class="logo">
+                <svg width="40" height="40" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M40 20 L75 20 C90 20 90 55 75 55 L45 55 L40 20Z" fill="#FF1E4D" />
+                    <path d="M10 80 L35 45 L50 65 L70 35 L90 80 H10Z" fill="#FF1E4D" />
+                </svg>
+                <span class="logo-text">red<span>Rox</span></span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#services" data-i18n="nav-services">Services</a></li>
+                <li><a href="#process" data-i18n="nav-process">How It Works</a></li>
+                <li>
+                    <div class="lang-switcher">
+                        <button class="lang-btn active" data-lang="en">EN</button>
+                        <button class="lang-btn" data-lang="ge">GE</button>
+                    </div>
+                </li>
+                <li><a href="#contact" class="btn-primary" data-i18n="nav-contact">Get in Touch</a></li>
+            </ul>
+            <div class="menu-toggle" id="mobile-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="container hero-content">
+                <div class="hero-text">
+                    <h1 class="reveal-text" data-i18n="hero-title">Building Digital <br><span
+                            class="highlight">Masterpieces</span></h1>
+                    <p class="fade-in" data-i18n="hero-desc">We blend cutting-edge technology with premium design to
+                        help your business
+                        dominate the digital landscape.</p>
+
+                </div>
+                <div class="hero-visual">
+                    <div class="prism-nexus">
+                        <div class="prism-glow"></div>
+                        <div class="prism-structure">
+                            <div class="prism-layer layer-1"></div>
+                            <div class="prism-layer layer-2"></div>
+                            <div class="prism-layer layer-3"></div>
+                        </div>
+                        <div class="prism-core">
+                            <div class="core-inner"></div>
+                            <div class="core-orbit"></div>
+                        </div>
+                        <div class="floating-data">
+                            <span class="data-node"></span>
+                            <span class="data-node"></span>
+                            <span class="data-node"></span>
+                            <span class="data-node"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <div class="mouse"></div>
+            </div>
+        </section>
+
+        <section id="services">
+            <div class="container">
+                <div class="section-header">
+                    <span class="sub-title" data-i18n="services-subtitle">What We Do</span>
+                    <h2 data-i18n="services-title">Expertise for the <span class="highlight">Future</span></h2>
+                </div>
+                <div class="services-grid">
+                    <div class="service-card glass-card">
+                        <div class="card-icon">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="16 18 22 12 16 6"></polyline>
+                                <polyline points="8 6 2 12 8 18"></polyline>
+                            </svg>
+                        </div>
+                        <h3 data-i18n="service-1-title">Web Development</h3>
+                        <p data-i18n="service-1-desc">Blazing fast, secure, and scalable web applications built with the
+                            latest technologies.</p>
+                    </div>
+                    <div class="service-card glass-card">
+                        <div class="card-icon">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M12 19l7-7 3 3-7 7-3-3z"></path>
+                                <path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"></path>
+                                <path d="M2 2l7.5 1.5"></path>
+                                <path d="M7 11l5-5"></path>
+                            </svg>
+                        </div>
+                        <h3 data-i18n="service-2-title">UI/UX Design</h3>
+                        <p data-i18n="service-2-desc">User-centric designs that provide seamless experiences across all
+                            devices and platforms.</p>
+                    </div>
+                    <div class="service-card glass-card">
+                        <div class="card-icon">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                                <path
+                                    d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z">
+                                </path>
+                                <path
+                                    d="m12 15-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z">
+                                </path>
+                                <path d="M9 12H4s.55-3.03 2-5c1.62-2.2 5-3 5-3"></path>
+                                <path d="M12 15v5s3.03-.55 5-2c2.2-1.62 3-5 3-5"></path>
+                            </svg>
+                        </div>
+                        <h3 data-i18n="service-3-title">Brand Identity</h3>
+                        <p data-i18n="service-3-desc">Crafting unique brand voices and visual identities that resonate
+                            with
+                            your audience.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="tech-stack">
+            <div class="container">
+                <div class="section-header">
+                    <span class="sub-title" data-i18n="tech-subtitle">Our Stack</span>
+                    <h2 data-i18n="tech-title">Technologies We <span class="highlight">Master</span></h2>
+                </div>
+                <div class="tech-grid">
+                    <!-- JavaScript -->
+                    <div class="tech-card glass-card fade-in">
+                        <div class="tech-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M3 3h18v18H3z" />
+                                <path d="M7 12h5" />
+                                <path d="M15 9l-2 6 2.5-3" />
+                            </svg>
+                        </div>
+                        <span>JavaScript</span>
+                    </div>
+                    <!-- React -->
+                    <div class="tech-card glass-card fade-in">
+                        <div class="tech-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="2" />
+                                <path d="M12 5c-4.42 0-8 3.13-8 7s3.58 7 8 7 8-3.13 8-7-3.58-7-8-7z" />
+                                <path d="M5.31 8.5c2.21-3.83 6.17-6.5 10.69-6.5s8.48 2.67 10.69 6.5" />
+                                <path d="M18.69 15.5c-2.21 3.83-6.17 6.5-10.69 6.5s-8.48-2.67-10.69-6.5" />
+                            </svg>
+                        </div>
+                        <span>React</span>
+                    </div>
+                    <!-- Next.js -->
+                    <div class="tech-card glass-card fade-in">
+                        <div class="tech-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M12 2L2 7l10 5 10-5-10-5z" />
+                                <path d="M2 17l10 5 10-5" />
+                                <path d="M2 12l10 5 10-5" />
+                            </svg>
+                        </div>
+                        <span>Next.js</span>
+                    </div>
+                    <!-- Angular -->
+                    <div class="tech-card glass-card fade-in">
+                        <div class="tech-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M12 2L2 5l2 14 8 3 8-3 2-14z" />
+                                <path d="M12 6L7 16h2l1-2h4l1 2h2z" />
+                                <path d="M11 12h2L12 9z" />
+                            </svg>
+                        </div>
+                        <span>Angular</span>
+                    </div>
+                    <!-- React Native -->
+                    <div class="tech-card glass-card fade-in">
+                        <div class="tech-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <rect x="5" y="2" width="14" height="20" rx="2" ry="2" />
+                                <path d="M12 18h.01" />
+                                <path d="M9 13a3 3 0 1 1 6 0 3 3 0 0 1-6 0z" />
+                            </svg>
+                        </div>
+                        <span>React Native</span>
+                    </div>
+                    <!-- SQL -->
+                    <div class="tech-card glass-card fade-in">
+                        <div class="tech-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <ellipse cx="12" cy="5" rx="9" ry="3" />
+                                <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3" />
+                                <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5" />
+                            </svg>
+                        </div>
+                        <span>SQL</span>
+                    </div>
+                    <!-- MongoDB -->
+                    <div class="tech-card glass-card fade-in">
+                        <div class="tech-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M12 3c-4.42 0-8 3.58-8 8 0 5 8 10 8 10s8-5 8-10c0-4.42-3.58-8-8-8z" />
+                                <path d="M12 7v8" />
+                                <path d="M9 11l3 3 3-3" />
+                            </svg>
+                        </div>
+                        <span>MongoDB</span>
+                    </div>
+                    <!-- Node.js -->
+                    <div class="tech-card glass-card fade-in">
+                        <div class="tech-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M12 2l10 5v10l-10 5-10-5V7z" />
+                                <circle cx="12" cy="12" r="3" />
+                            </svg>
+                        </div>
+                        <span>Node.js</span>
+                    </div>
+                    <!-- AWS -->
+                    <div class="tech-card glass-card fade-in">
+                        <div class="tech-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <path
+                                    d="M17.5 19c.3 0 .5-.2.5-.5V15c0-2-3-3-3-3s-3 1-3 3v3.5c0 .3.2.5.5.5h5zM6.5 19c-.3 0-.5-.2-.5-.5V15c0-2 3-3 3-3s3 1 3 3v3.5c0 .3-.2.5-.5.5h-5z" />
+                                <path d="M12 5C8 5 5 8 5 12c0 2 1 3.5 1 3.5L12 19l6-3.5s1-1.5 1-3.5c0-4-3-7-7-7z" />
+                            </svg>
+                        </div>
+                        <span>AWS</span>
+                    </div>
+                    <!-- Docker -->
+                    <div class="tech-card glass-card fade-in">
+                        <div class="tech-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <rect x="2" y="10" width="4" height="4" rx="1" />
+                                <rect x="7" y="10" width="4" height="4" rx="1" />
+                                <rect x="12" y="10" width="4" height="4" rx="1" />
+                                <rect x="17" y="10" width="4" height="4" rx="1" />
+                                <rect x="7" y="5" width="4" height="4" rx="1" />
+                                <path d="M2 16h20c0 3-3 5-10 5s-10-2-10-5z" />
+                            </svg>
+                        </div>
+                        <span>Docker</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="onboarding-section">
+            <div class="container">
+                <div class="pricing-intro-card">
+                    <p class="pricing-intro-text" data-i18n="pricing-intro">Instead of paying thousands upfront, invest
+                        in small, manageable monthly payments that fit your budget. Get premium quality without breaking
+                        the bank.</p>
+                </div>
+                <h2 data-i18n="onboarding-title">Your Journey Starts Here</h2>
+                <div class="onboarding-flow">
+                    <div class="onboarding-step fade-in">
+                        <div class="onboarding-icon-wrapper">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+                            </svg>
+                        </div>
+                        <p data-i18n="onboarding-1">Tell us about your needs</p>
+                    </div>
+
+                    <div class="onboarding-dots">
+                        <div class="dot-unit"></div>
+                        <div class="dot-unit"></div>
+                        <div class="dot-unit"></div>
+                        <div class="dot-unit"></div>
+                    </div>
+
+                    <div class="onboarding-step fade-in">
+                        <div class="onboarding-icon-wrapper">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <path
+                                    d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+                                </path>
+                            </svg>
+                        </div>
+                        <p data-i18n="onboarding-2">We'll have a short discovery call</p>
+                    </div>
+
+                    <div class="onboarding-dots">
+                        <div class="dot-unit"></div>
+                        <div class="dot-unit"></div>
+                        <div class="dot-unit"></div>
+                        <div class="dot-unit"></div>
+                    </div>
+
+                    <div class="onboarding-step fade-in">
+                        <div class="onboarding-icon-wrapper">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                            </svg>
+                        </div>
+                        <p data-i18n="onboarding-3">You'll get a free quote from us</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="ethos">
+            <div class="ethos-bg-glow"></div>
+            <div class="container ethos-content">
+                <div class="ethos-visual fade-in">
+                    <div class="moving-core">
+                        <div class="core-pulse"></div>
+                        <div class="data-stream stream-1"></div>
+                        <div class="data-stream stream-2"></div>
+                        <div class="data-stream stream-3"></div>
+                    </div>
+                </div>
+                <div class="ethos-text fade-in">
+                    <span class="sub-title secondary" data-i18n="ethos-subtitle">The Ethos</span>
+                    <h2 data-i18n="ethos-title">Design with <span class="highlight-secondary">Purpose</span></h2>
+                    <p data-i18n="ethos-desc">We don't just build websites; we create digital assets that embody your
+                        brand's soul. Our mission is to bridge the gap between human emotion and technical precision.
+                    </p>
+                    <div class="ethos-stats">
+                        <div class="stat-item">
+                            <span class="stat-num">100%</span>
+                            <span class="stat-lbl" data-i18n="ethos-stat-1">Custom Made</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-num">24/7</span>
+                            <span class="stat-lbl" data-i18n="ethos-stat-2">Global Vision</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="process" class="process-map-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="sub-title" data-i18n="process-subtitle">The Method</span>
+                    <h2 data-i18n="process-title">From Vision to <span class="highlight">Perfection</span></h2>
+                </div>
+
+                <div class="process-map">
+                    <div class="process-node">
+                        <div class="node-content glass-card">
+                            <div class="node-icon">
+                                <svg width="40" height="40" viewBox="0 0 40 40" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="20" cy="20" r="12" stroke="var(--primary)" stroke-width="2" />
+                                    <circle cx="20" cy="20" r="4" fill="var(--primary)" />
+                                    <path d="M20 2V8" stroke="var(--primary)" stroke-width="2" />
+                                    <path d="M20 32V38" stroke="var(--primary)" stroke-width="2" />
+                                    <path d="M32 20H38" stroke="var(--primary)" stroke-width="2" />
+                                    <path d="M2 20H8" stroke="var(--primary)" stroke-width="2" />
+                                </svg>
+                            </div>
+                            <h3 data-i18n="process-step-1-title">Discovery</h3>
+                            <p data-i18n="process-step-1-desc">We deep dive into your goals to understand exactly what
+                                your
+                                business needs to grow.</p>
+                        </div>
+                    </div>
+
+                    <div class="process-arrow">
+                        <svg width="60" height="24" viewBox="0 0 60 24" fill="none">
+                            <path d="M0 12H58M58 12L48 2M58 12L48 22" stroke="var(--primary)" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </div>
+
+                    <div class="process-node highlight-node">
+                        <div class="node-content glass-card">
+                            <div class="node-icon">
+                                <svg width="40" height="40" viewBox="0 0 40 40" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M10 10H30V30H10V10Z" stroke="var(--primary)" stroke-width="2" />
+                                    <path d="M15 15H35V35H15V15Z" stroke="var(--primary)" stroke-width="2"
+                                        stroke-opacity="0.5" />
+                                    <path d="M20 20L30 20" stroke="var(--primary)" stroke-width="2" />
+                                    <path d="M25 25L35 25" stroke="var(--primary)" stroke-width="2"
+                                        stroke-opacity="0.5" />
+                                </svg>
+                            </div>
+                            <h3 data-i18n="process-step-2-title">Execution</h3>
+                            <p data-i18n="process-step-2-desc">Crafting high-end design and precise tech implementation
+                                to
+                                create your digital masterpiece.</p>
+                        </div>
+                    </div>
+
+                    <div class="process-arrow">
+                        <svg width="60" height="24" viewBox="0 0 60 24" fill="none">
+                            <path d="M0 12H58M58 12L48 2M58 12L48 22" stroke="var(--primary)" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </div>
+
+                    <div class="process-node">
+                        <div class="node-content glass-card">
+                            <div class="node-icon">
+                                <svg width="40" height="40" viewBox="0 0 40 40" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M5 35L15 25L25 30L35 15" stroke="var(--primary)" stroke-width="2"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                    <path d="M35 15V22" stroke="var(--primary)" stroke-width="2"
+                                        stroke-linecap="round" />
+                                    <path d="M35 15H28" stroke="var(--primary)" stroke-width="2"
+                                        stroke-linecap="round" />
+                                    <circle cx="35" cy="15" r="4" fill="var(--primary)" fill-opacity="0.3" />
+                                </svg>
+                            </div>
+                            <h3 data-i18n="process-step-3-title">Evolution</h3>
+                            <p data-i18n="process-step-3-desc">Long-term partnership with continuous updates,
+                                maintenance,
+                                and growth-focused care.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pricing-section-header fade-in">
+                    <span class="sub-title">Investment</span>
+                    <h2 data-i18n="pricing-title">Flexible <span class="highlight">Premium Tiers</span></h2>
+                </div>
+
+                <div class="pricing-grid">
+                    <div class="pricing-card glass-card fade-in">
+                        <div class="price-header">
+                            <h3 data-i18n="price-1-title">Landing Page</h3>
+                            <div class="price-value">₾99<span>/mo</span></div>
+                        </div>
+                        <ul class="price-features">
+                            <li data-i18n="price-1-f1">Domain included</li>
+                            <li data-i18n="price-1-f2">Hosting included</li>
+                            <li data-i18n="price-1-f3">Minimal changes support</li>
+                            <li data-i18n="price-1-f4">Responsive Design</li>
+                        </ul>
+                        <a href="#contact" class="btn-secondary" data-i18n="pricing-btn">Get Started</a>
+                    </div>
+
+                    <div class="pricing-card glass-card fade-in">
+                        <div class="price-header">
+                            <h3 data-i18n="price-2-title">E-Commerce</h3>
+                            <div class="price-value">₾350<span>/mo</span></div>
+                        </div>
+                        <ul class="price-features">
+                            <li data-i18n="price-2-f1">Online Shop System</li>
+                            <li data-i18n="price-2-f2">Payment Integration</li>
+                            <li data-i18n="price-2-f3">Inventory Management</li>
+                            <li data-i18n="price-2-f4">Premium Support</li>
+                        </ul>
+                        <a href="#contact" class="btn-primary" data-i18n="pricing-btn">Get Started</a>
+                    </div>
+
+                    <div class="pricing-card glass-card fade-in">
+                        <div class="price-header">
+                            <h3 data-i18n="price-3-title">System</h3>
+                            <div class="price-value">₾499<span>/mo</span></div>
+                        </div>
+                        <ul class="price-features">
+                            <li data-i18n="price-3-f1">Admin Panel</li>
+                            <li data-i18n="price-3-f2">Internal Systems</li>
+                            <li data-i18n="price-3-f3">Complex Architecture</li>
+                            <li data-i18n="price-3-f4">Custom Integrations</li>
+                        </ul>
+                        <a href="#contact" class="btn-secondary" data-i18n="pricing-btn">Get Started</a>
+                    </div>
+                </div>
+
+                <div class="pricing-footer fade-in">
+                    <p data-i18n="pricing-individual">Need something even more complex? We count individual systems
+                        specifically for your needs.</p>
+                    <a href="#contact" class="highlight" data-i18n="pricing-contact">Consult with us</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="logo">
+                        <svg width="40" height="40" viewBox="0 0 100 100" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path d="M40 20 L75 20 C90 20 90 55 75 55 L45 55 L40 20Z" fill="#FF1E4D" />
+                            <path d="M10 80 L35 45 L50 65 L70 35 L90 80 H10Z" fill="#FF1E4D" />
+                        </svg>
+                        <span class="logo-text">red<span>Rox</span></span>
+                    </div>
+                    <p data-i18n="footer-desc">Excellence in digital craftsmanship since 2024.</p>
+                </div>
+                <div class="footer-links">
+                    <h4 data-i18n="footer-links-title">Quick Links</h4>
+                    <ul>
+                        <li><a href="#services" data-i18n="nav-services">Services</a></li>
+                        <li><a href="#process" data-i18n="nav-process">How It Works</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4 data-i18n="footer-connect-title">Connect</h4>
+                    <p>hello@redrox.studio</p>
+                    <div class="social-links">
+                        <a href="#">Ln</a>
+                        <a href="#">Tw</a>
+                        <a href="#">Ig</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p data-i18n="footer-rights">&copy; 2024 redRox Webstudio. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
